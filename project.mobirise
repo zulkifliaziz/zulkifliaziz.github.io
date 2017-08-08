@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 16,
+    "uniqCompNum": 20,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -60,6 +60,19 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "color": "#2b0680"
+            },
+            ".mbr-section-text": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "17px",
+              "color": "#3d8eb9"
+            }
+          },
           "_anchor": "header2-8",
           "_params": {
             "imageSize": "62",
@@ -108,20 +121,7 @@
           },
           "title": "Borderless Connectivity",
           "text": "via VSAT SATELLITE COMMUNICATION SOLUTIONS",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "color": "#2b0680"
-            },
-            ".mbr-section-text": {
-              "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "font-size": "17px",
-              "color": "#3d8eb9"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_styles": {
@@ -215,7 +215,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html#header2-8\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">www.st-link.my</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-8\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-f\">INTRODUCTION<br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features6-e\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features6-e\">Main Features</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">Why ST-Link</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">Why use VSAT</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">VSAT Applications</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">Businesses &amp; Communities</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">VSAT Solutions by Industry</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">ST-Link Solutions</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-8\">CONTACT US<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#header2-8\">DOWNLOAD OUR BROCHURE</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-8\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-f\">INTRODUCTION<br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features6-e\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features6-e\">Main Features</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">Why ST-Link</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">Why use VSAT</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">VSAT Applications</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">Businesses &amp; Communities</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">VSAT Solutions by Industry</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">ST-Link Solutions</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header2-8\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">CONTACT US<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-g\">Contact Form</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-j\">Address<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#header2-8\">DOWNLOAD OUR BROCHURE</a></li>"
         },
         {
           "_inherit": "features3",
@@ -402,6 +402,124 @@
           "title": "INTRODUCTION",
           "text": "<ol><li><b>ST-Link</b> solution is the best option in order to meet the ever growing demand for secure, flexible and high performance infrastructure to meet <b>data, voice and multimedia connectivity</b> in event the most remote areas, where terrestrial data services like ADSL, fibre optics,2G,3G,4G and LTE not available</li><li><b>ST-Link</b> delivers reliable real time fixed and mobile IP satellite communications solutions to consumers, businesses, public institutions and government agencies.</li><li><div>VSAT satellite communication infrastructure can achieve this in a much cost effective manner than terrestrial lines.</div><div><br></div></li></ol>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">FIND OUT MORE</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-j",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Astronautic Technology ",
+              "placeId": "ChIJlWEKAbRNzDERDf4iYGYiurI",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>ST-Link <br>Wisma ATSB, <br>No 2, Jalan Jururancang U1/21,<br>Hicom Glenmarie Industrial Park,<br>Section U1<br>40150 Shah Alam<br>Selangor Darul Ehsan<br>Malaysia<br><br>\n<strong>Contacts</strong><br>\nEmail: sales@st-link.com<br>\nPhone: 0355690100<br>\nFax: 0355696288",
+          "text2": "<p class=\"mbr-contacts__text\"><b>Links</b></p><ul><li><a href=\"index.html#header2-8\" class=\"text-white\">Home</a></li><li><a href=\"index.html#msg-box3-f\" class=\"text-white\">Introduction</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\" style=\"font-size: 0.875rem; line-height: 1.8; background-color: rgb(46, 46, 46);\"></a></li><li><span style=\"color: rgb(255, 255, 255);\">Features</span></li><li><a href=\"index.html#form1-g\" class=\"text-white\">Contact Form</a><span style=\"color: rgb(255, 255, 255);\"></span></li></ul>",
+          "_styles": {
+            "UL": {
+              "text-align": "left",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "15px"
+            },
+            "P": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "16px",
+              "color": "#ffffff"
+            },
+            "STRONG": {
+              "font-size": "17px",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-g",
+          "_params": {
+            "labelsColor": "#ffffff",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#c1c1c1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Please fill-in this form for us to serve you",
+          "form": {
+            "action": "zulkifli.abdulaziz@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "14px"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            "SMALL": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     }
