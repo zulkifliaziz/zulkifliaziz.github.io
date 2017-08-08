@@ -86,7 +86,7 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/logo-copy.png",
-              "link": "",
+              "link": "index.html#header2-8",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -214,8 +214,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">www.st-link.my</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-8\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-f\">INTRODUCTION<br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features6-e\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features6-e\">Main Features</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Why ST-Link</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Why use VSAT</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">VSAT Applications</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Businesses &amp; Communities</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">VSAT Solutions by Industry</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">ST-Link Solutions</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT US<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/\">DOWNLOAD OUR BROCHURE</a></li>"
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html#header2-8\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">www.st-link.my</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-8\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-f\">INTRODUCTION<br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features6-e\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features6-e\">Main Features</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">Why ST-Link</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">Why use VSAT</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">VSAT Applications</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">Businesses &amp; Communities</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">VSAT Solutions by Industry</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header2-8\">ST-Link Solutions</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-8\">CONTACT US<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#header2-8\">DOWNLOAD OUR BROCHURE</a></li>"
         },
         {
           "_inherit": "features3",
@@ -260,7 +260,7 @@
           "title1": "Why VSAT",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "VSAT independent from the terrestrial network. It's provide availability &amp; service continuity of IP connectivity. It has borderless connectivity.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#header2-8\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
@@ -275,7 +275,7 @@
           "title2": "VSAT Applications",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "VSAT can be applied for businesses and communities. It can be use for Email, File Transfer (FTP), VoIP, Internet (web broswing), M2M (SCADA, Telemetry Remote Hardware Management), Remote Diagnostics, Remote Monitoring and Data Streaming Services from remote or hazardous sites to headquaters.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#header2-8\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
@@ -290,7 +290,7 @@
           "title3": "ST-Link Solutions",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "We are at ST-Link capable to provide full VSAT satellite communications solution and infrastructure (upload and download speed of choice) as well as VSAT satellite communication data service subscription.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#header2-8\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
@@ -305,7 +305,7 @@
           "title4": "How VSAT Work",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "NEED Some wording!",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"index.html#header2-8\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media5": {
             "iconFont": {
               "active": true,
