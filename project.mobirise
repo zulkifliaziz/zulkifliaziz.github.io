@@ -119,7 +119,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/logo-copy.png",
+              "src": "@PROJECT_PATH@/assets/images/webp.net-gifmaker.gif",
               "link": "index.html#header2-8",
               "alt": "",
               "title": "",
