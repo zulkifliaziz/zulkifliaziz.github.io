@@ -209,36 +209,36 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#c0a375"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#c0a375"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#c0a375",
               "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
               "font-family": "'Titillium Web', sans-serif"
             },
             ".link": {
-              "font-size": "0.9rem"
+              "font-size": "1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.975rem"
+              "font-size": "1.083rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#c0a375",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -263,14 +263,14 @@
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "bgColor": "#000000",
-            "fontSize": "0.9",
+            "bgColor": "#ffffff",
+            "fontSize": "1",
             "fontName": {
               "name": "Titillium Web",
               "url": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
               "css": "'Titillium Web', sans-serif"
             },
-            "fontColor": "#ffffff",
+            "fontColor": "#c0a375",
             "fontHoverColor": "@primaryColor"
           },
           "logo": {
@@ -289,8 +289,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html#header2-8\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">www.st-link.my</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-8\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header4-l\">INTRODUCTION<br></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features6-e\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features6-e\">Main Features</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header5-v\">Why ST-Link</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-p\">Why use VSAT</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">VSAT Applications</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-q\">Businesses &amp; Communities</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider3-s\">VSAT Solutions by Industry</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-u\">ST-Link Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header2-8\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CONTACT US<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-g\">Contact Form</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-j\">Address<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"index.html#header2-8\">DOWNLOAD OUR BROCHURE</a></li>"
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html#header2-8\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">www.st-link.my</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-8\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header4-l\">INTRODUCTION<br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features6-e\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features6-e\">Main Features</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header5-v\">Why ST-Link</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-p\">Why use VSAT</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">VSAT Applications</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-q\">Businesses &amp; Communities</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider3-s\">VSAT Solutions by Industry</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-u\">ST-Link Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header2-8\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CONTACT US<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-g\">Contact Form</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-j\">Address<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#header2-8\">DOWNLOAD OUR BROCHURE</a></li>"
         },
         {
           "_inherit": "features3",
