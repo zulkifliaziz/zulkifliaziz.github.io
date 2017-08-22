@@ -1,8 +1,6 @@
 @import url(../../../https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
-@import url(../../../https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(../../../https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 @import url(../../../https://fonts.googleapis.com/css?family=Raleway:400,300,700);
-@import url(../../../https://fonts.googleapis.com/css?family=Lora:400,700);
 
 
 
@@ -38,11 +36,11 @@ body,
 input,
 textarea,
 .mbr-company .list-group-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .btn,
 .alert,
@@ -66,7 +64,7 @@ h6,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -80,7 +78,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .btn {
   border-radius: 1.6em;
@@ -95,20 +93,23 @@ h6,
 .mbr-section-hero .mbr-section-lead,
 .mbr-cards .card-subtitle,
 .mbr-testimonial .card-block {
-  font-family: 'Lora', serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
 }
 .mbr-author-name {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .mbr-author-desc {
-  font-family: 'Lora', serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
 }
 .mbr-plan-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
-  font-family: 'Lora', serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
 }
 .bg-primary {
   background-color: #c0a375 !important;
@@ -458,13 +459,14 @@ h6,
 }
 #header2-8 .mbr-section-text {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   color: #28324e;
+  text-align: right;
 }
 #header2-8 .mbr-section-text B {
   text-align: left;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 #header2-8 .btn {
   font-family: 'Titillium Web', sans-serif;
@@ -558,6 +560,26 @@ h6,
 #features6-e .btn {
   font-family: 'Titillium Web', sans-serif;
 }
+#msg-box3-q .mbr-section-title,
+#msg-box3-q p {
+  color: #000;
+}
+#msg-box3-q .mbr-section-title {
+  color: #efefef;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+#msg-box3-q .lead P {
+  color: #efefef;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+}
+#slider3-s H2 {
+  text-align: left;
+  color: #efefef;
+  font-size: 48px;
+}
 #msg-box3-p .mbr-section-title,
 #msg-box3-p p {
   color: #000;
@@ -572,23 +594,14 @@ h6,
 #msg-box3-p .mbr-section-title {
   font-family: 'Titillium Web', sans-serif;
 }
-#msg-box3-q .mbr-section-title,
-#msg-box3-q p {
+#header5-v .mbr-section-title {
   color: #000;
-}
-#msg-box3-q .mbr-section-title {
-  color: #efefef;
   font-family: 'Titillium Web', sans-serif;
-  text-align: center;
 }
-#msg-box3-q .lead P {
-  color: #efefef;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-}
-#slider3-s H2 {
-  text-align: center;
+#header5-v .mbr-section-lead {
+  color: #3d8eb9;
+  text-align: left;
+  font-family: 'Titillium Web', sans-serif;
 }
 #msg-box3-u .mbr-section-title,
 #msg-box3-u p {
@@ -600,25 +613,23 @@ h6,
   font-family: 'Ubuntu', sans-serif;
 }
 #msg-box3-u .mbr-section-title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 60px;
 }
-#header5-v .mbr-section-title {
-  color: #000;
-  font-family: 'Ubuntu', sans-serif;
+#form1-g .form-control-label {
+  color: #ffffff;
 }
-#header5-v .mbr-section-lead {
-  color: #3d8eb9;
-  text-align: left;
-  font-family: 'Ubuntu', sans-serif;
+#form1-g .btn {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
 }
-#header6-w .mbr-section-title {
-  color: #28262b;
+#form1-g .mbr-section-title {
+  font-family: 'Titillium Web', sans-serif;
+  color: #ffffff;
 }
-#header6-w .mbr-section-text {
-  color: #565656;
-}
-#header6-w .mbr-section-title SPAN {
-  font-family: 'Ubuntu', sans-serif;
+#form1-g SMALL {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
 }
 #contacts2-j UL {
   text-align: left;
@@ -635,20 +646,14 @@ h6,
   font-family: 'Titillium Web', sans-serif;
   color: #ffffff;
 }
-#form1-g .form-control-label {
-  color: #ffffff;
+#header6-w .mbr-section-title {
+  color: #28262b;
 }
-#form1-g .btn {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 14px;
+#header6-w .mbr-section-text {
+  color: #565656;
 }
-#form1-g .mbr-section-title {
-  font-family: 'Titillium Web', sans-serif;
-  color: #ffffff;
-}
-#form1-g SMALL {
-  font-family: 'Raleway', sans-serif;
-  color: #ffffff;
+#header6-w .mbr-section-title SPAN {
+  font-family: 'Ubuntu', sans-serif;
 }
 #social-buttons4-m .mbr-section-title,
 #social-buttons4-m .btn-social {

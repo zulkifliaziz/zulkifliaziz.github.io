@@ -12,11 +12,11 @@
         "infoColor": "#000000",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
+        "titleFont": "Titillium Web",
+        "subtitleFont": "Titillium Web",
+        "textFont": "Titillium Web",
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
         "isRtl": false
       },
@@ -25,8 +25,8 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 33,
-    "versionPublish": "4.1.2",
+    "uniqCompNum": 35,
+    "versionPublish": "4.1.7",
     "favicon": "",
     "noImageResize": ""
   },
@@ -43,6 +43,11 @@
       "components": [
         {
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "footer1-2",
           "_params": {
             "paddingTop": "2",
@@ -56,12 +61,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2017 ST-Link.",
-          "_styles": {
-            "P": {
-              "color": "#000000"
-            }
-          }
+          "text": "Copyright (c) 2017 ST-Link."
         },
         {
           "_tags": [
@@ -79,14 +79,15 @@
             ".mbr-section-text": {
               "font-family": "'Titillium Web', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "font-size": "30px",
-              "color": "#28324e"
+              "font-size": "24px",
+              "color": "#28324e",
+              "text-align": "right"
             },
             ".mbr-section-text B": {
               "text-align": "left",
               "font-family": "'Titillium Web', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "font-size": "18px"
+              "font-size": "20px"
             },
             ".btn": {
               "font-family": "'Titillium Web', sans-serif",
@@ -141,7 +142,7 @@
             }
           },
           "title": "Borderless Connectivity",
-          "text": "&nbsp; <b>via</b> <br><b>&nbsp; VSAT SATELLITE COMMUNICATION SOLUTIONS</b>",
+          "text": "<b>&nbsp; &nbsp;</b> Via SAT SATELLITE COMMUNICATION SOLUTIONS<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">Click Here for More</a>"
         },
         {
@@ -150,32 +151,6 @@
             "Theme"
           ],
           "_name": "header4",
-          "_anchor": "header4-l",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "right",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
-            "bgVideoRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/embed/8PLkmGABxAo?rel=0&amp;showinfo=0&autoplay=0&loop=0",
-              "rawUrl": "https://youtu.be/8PLkmGABxAo",
-              "width": 1280,
-              "height": 720
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": "0.6"
-          },
-          "title": "INTRODUCTION",
-          "text": "<span style=\"font-style: normal;\"><b>ST-Link</b> solution is the best option in order to meet the ever growing demand for secure, flexible and high performance infrastructure to meet <b>data, voice and multimedia connectivity</b> in event the most remote areas, where terrestrial data services like ADSL, fibre optics,2G,3G,4G and LTE not available<br><b>ST-Link</b> delivers reliable real time fixed and mobile IP satellite communications solutions to consumers, businesses, public institutions and government agencies.<br><b>VSAT satellite communication infrastructure</b> can achieve this in a much cost effective manner than terrestrial lines.</span><br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">FIND OUT MORE</a>",
           "_styles": {
             ".mbr-section-lead": {
               "text-align": "left",
@@ -196,7 +171,33 @@
             ".mbr-section-lead SPAN": {
               "font-size": "22px"
             }
-          }
+          },
+          "_anchor": "header4-l",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "right",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "rawUrl": "https://youtu.be/8PLkmGABxAo",
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/8PLkmGABxAo?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.6"
+          },
+          "title": "INTRODUCTION",
+          "text": "<span style=\"font-style: normal;\"><b>ST-Link</b> solution is the best option in order to meet the ever growing demand for secure, flexible and high performance infrastructure to meet <b>data, voice and multimedia connectivity</b> in event the most remote areas, where terrestrial data services like ADSL, fibre optics,2G,3G,4G and LTE not available<br><b>ST-Link</b> delivers reliable real time fixed and mobile IP satellite communications solutions to consumers, businesses, public institutions and government agencies.<br><b>VSAT satellite communication infrastructure</b> can achieve this in a much cost effective manner than terrestrial lines.</span><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">FIND OUT MORE</a>"
         },
         {
           "_styles": {
@@ -290,7 +291,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html#header2-8\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">www.st-link.my</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-8\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header4-l\">INTRODUCTION<br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features6-e\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features6-e\">Main Features</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header5-v\">Why ST-Link</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-p\">Why use VSAT</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">VSAT Applications</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-q\">Businesses &amp; Communities</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider3-s\">VSAT Solutions by Industry</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-u\">ST-Link Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header2-8\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CONTACT US<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-g\">Contact Form</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-j\">Address<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#header2-8\">DOWNLOAD OUR BROCHURE</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-8\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header4-l\">INTRODUCTION<br></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features6-e\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features6-e\">Main Features</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header5-v\">Why ST-Link</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-p\">Why use VSAT</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features6-e\" aria-expanded=\"true\">How VSAT Work</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">VSAT Applications</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-q\">Businesses &amp; Communities</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider3-s\">VSAT Solutions by Industry</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box3-u\">ST-Link Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header2-8\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CONTACT US<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-g\">Contact Form</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-j\">Address<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#header2-8\">DOWNLOAD OUR BROCHURE</a></li>"
         },
         {
           "_inherit": "features3",
@@ -298,6 +299,20 @@
             "Theme"
           ],
           "_name": "features6",
+          "_styles": {
+            "P": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            "H4": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".btn": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            }
+          },
           "_anchor": "features6-e",
           "_params": {
             "showImages": true,
@@ -328,8 +343,9 @@
               "name": "question",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "",
+              "size": 0,
+              "newWindow": false
             }
           },
           "title1": "Why VSAT",
@@ -343,8 +359,9 @@
               "name": "to-ftp",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "",
+              "size": 0,
+              "newWindow": false
             }
           },
           "title2": "VSAT Applications",
@@ -358,8 +375,9 @@
               "name": "target",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "",
+              "size": 0,
+              "newWindow": false
             }
           },
           "title3": "ST-Link Solutions",
@@ -370,11 +388,12 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "magic-stick",
+              "name": "setting",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "",
+              "size": 0,
+              "newWindow": false
             }
           },
           "title4": "How VSAT Work",
@@ -408,21 +427,169 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_inherit": "msg-box8",
           "_styles": {
-            "P": {
-              "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            ".mbr-section-title, p": {
+              "color": "#000"
             },
-            "H4": {
+            ".mbr-section-title": {
+              "color": "#efefef",
               "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "text-align": "center"
             },
-            ".btn": {
+            ".lead P": {
+              "color": "#efefef",
+              "text-align": "center",
               "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "16px"
             }
-          }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-q",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/black-copy-2000x1501.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "VSAT FOR BUSINESSES &amp; COMMUNITIES",
+          "text": "<p><b><br></b></p><p><b>&nbsp;&gt; Email</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&gt; &nbsp;<span style=\"font-size: 1.07rem;\">File transfer (FTP)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &gt; Data processing &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>&gt; VPN network access</b></p><p>&gt; Chat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<b> &nbsp;&gt; VoIP ( Skype, Google Talk etc)&nbsp;&nbsp;&nbsp;</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &gt; ATM-POS</p><p>&gt; Internet (Web Browsing) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <b>&gt; Multimedia/Video Streaming</b> &nbsp; &nbsp;&nbsp; &nbsp; &gt; Video conferencing</p><p><b>&gt; Video surveillance&nbsp;&nbsp; &nbsp;</b>&nbsp; &nbsp; &nbsp;&gt; Tracking and location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &gt; Back up connectivity </p><p>&gt;&nbsp;<span style=\"font-size: 1.07rem;\">Inventory Control &nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1.07rem;\">&gt;&nbsp;</span><span style=\"font-size: 1.07rem;\">Reservation System&nbsp;</span>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span style=\"font-size: 1.07rem;\">Financial Management&nbsp;</span><span style=\"font-size: 1.07rem;\">&nbsp; &nbsp; &nbsp; &nbsp;</span></p><p><b>&gt; M2M ( SCADA/Telemetry<i> </i>Remote Hardware Management)\n</b></p><p><b>&gt; Remote diagnostics, remote monitoring and data streaming services</b> from remote or hazardous sites to headquarters</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">Find More Our Features</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_styles": {
+            "H2": {
+              "text-align": "left",
+              "color": "#efefef",
+              "font-size": "48px"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": "5",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2017-08-21-at-11.08.35-am-1660x1160.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "overlayOpacity": "0.4",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "IMAGE SLIDER",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/oil-and-gas-1920x1280.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "overlayOpacity": "0.4",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "OIL &amp; GAS",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/marine-1920x1440.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "overlayOpacity": "0.2",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "MARINE",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/environment-monitoring-1920x1279.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "ENVIRONMENT MONITORING",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/remote-communities-1916x1504.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/plantation-agriculture-1920x1231.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "overlayOpacity": "0.2",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "PLANTATION",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "_anchor": "slider3-s",
+          "articleLayout": false
         },
         {
           "_inherit": "msg-box8",
@@ -444,6 +611,11 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
             }
           },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-p",
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -465,218 +637,28 @@
           },
           "title": "Why VSAT?",
           "text": "<p>1. Independent from terrestrial network\n</p><p>2. Terrestrial network does not guarantee high availability &amp; service continuity of IP connectivity\n</p><p>3. Borderless communication\n</p><p>4. Remote data/internet streaming services from remote or hazardous sites to headquarters\n</p><p>5. Improve productivity : latest data information/sharing updates from remote locations\n</p><p>6. Convenient gathering of various data from multiple sites within the organization</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">Find More Our Features</a>",
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-p"
-        },
-        {
-          "_inherit": "msg-box8",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#000"
-            },
-            ".mbr-section-title": {
-              "color": "#efefef",
-              "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "text-align": "center"
-            },
-            ".lead P": {
-              "color": "#efefef",
-              "text-align": "center",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "15px"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButton": false,
-            "paddingTop": "3",
-            "paddingBottom": "3",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/black-copy-2000x1501.png",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "VSAT FOR BUSINESSES &amp; COMMUNITIES",
-          "text": "<p><b><br></b></p><p><b>&nbsp;&gt; Email</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&gt; &nbsp;<span style=\"font-size: 1.07rem;\">File transfer (FTP)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &gt; Data processing &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>&gt; VPN network access</b></p><p>&gt; Chat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<b> &nbsp;&gt; VoIP ( Skype, Google Talk etc)&nbsp;&nbsp;&nbsp;</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &gt; ATM-POS</p><p>&gt; Internet (Web Browsing) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <b>&gt; Multimedia/Video Streaming</b> &nbsp; &nbsp;&nbsp; &nbsp; &gt; Video conferencing</p><p><b>&gt; Video surveillance&nbsp;&nbsp; &nbsp;</b>&nbsp; &nbsp; &nbsp;&gt; Tracking and location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &gt; Back up connectivity </p><p>&gt;&nbsp;<span style=\"font-size: 1.07rem;\">Inventory Control &nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1.07rem;\">&gt;&nbsp;</span><span style=\"font-size: 1.07rem;\">Reservation System&nbsp;</span>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span style=\"font-size: 1.07rem;\">Financial Management&nbsp;</span><span style=\"font-size: 1.07rem;\">&nbsp; &nbsp; &nbsp; &nbsp;</span></p><p><b>&gt; M2M ( SCADA/Telemetry<i> </i>Remote Hardware Management)\n</b></p><p><b>&gt; Remote diagnostics, remote monitoring and data streaming services</b> from remote or hazardous sites to headquarters</p><p><br></p><p><br></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">Find More Our Features</a>",
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-q"
-        },
-        {
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": 5,
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/vsat-solution-2000x1501.png",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "IMAGE SLIDER",
-                "overlay": false,
-                "contentAlign": "right",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "overlayOpacity": "0.4"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/energy-2000x1501.png",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "IMAGE SLIDER",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "overlayOpacity": "0.4"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/oilgas-2000x1501.png",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "BACKGROUND VIDEO",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "overlayOpacity": "0.2"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/marine-2000x1501.png",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "BOOTSTRAP SLIDER",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/plantation-2000x1501.png",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "BOOTSTRAP SLIDER",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ]
-          },
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider3",
-          "_anchor": "slider3-s",
-          "_styles": {
-            "H2": {
-              "text-align": "center"
-            }
-          }
-        },
-        {
-          "_inherit": "msg-box8",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#000"
-            },
-            ".lead P": {
-              "text-align": "left",
-              "font-size": "17px",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            },
-            ".mbr-section-title": {
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButton": true,
-            "paddingTop": "3",
-            "paddingBottom": "3",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "ST-Link VSAT Solutions&nbsp;",
-          "text": "<p>&gt; We are capable to provide Full VSAT satellite communications solution and infrastructure &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (upload and download speed of choice )\n<span style=\"font-size: 1.07rem;\">&nbsp;&nbsp;</span></p><p>&gt; VSAT satellite communication data service subscription\n<span style=\"font-size: 1.07rem;\"></span></p><p>&gt; Solutions will depend on your specific requirements:\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; - Bandwidth, data rates &amp; number of sites (locations)\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; - Applications: SCADA/M2M, ATM-POS, Internet Broadband etc\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; - shared or dedicated bandwidth\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; - Point to point, point to multipoint</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#form1-g\" data-toolbar=\"-mbrBtnMove\">Contact us for more details</a>",
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-u"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">Find More Our Features</a>"
         },
         {
           "_inherit": "header1",
           "_styles": {
             ".mbr-section-title": {
               "color": "#000",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
             },
             ".mbr-section-lead": {
               "color": "#3d8eb9",
               "text-align": "left",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
             }
           },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-v",
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -698,120 +680,53 @@
           },
           "title": "Why ST-Link?",
           "text": "<br><b>ST-Link VSAT solution</b> assists businesses to expand their existing IP network beyond the limitations of the terrestrial and land line enabling applications that drive efficiencies, secure assets and provide reliable communications. \n<br><br>ST-Link VSAT solution also <b>provides peace of mind</b> in knowing that your primary terrestrial network is seamlessly backed up in the event of a terrestrial network outage.\n<br><br>ST-Link VSAT solution provides <b>high reliability, low latency and a secure connectivity </b>for your mission and business critical applications.&nbsp;<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NO</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NO</a>"
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".lead P": {
+              "text-align": "left",
+              "font-size": "17px",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "60px"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "header5",
-          "_anchor": "header5-v"
-        },
-        {
-          "_inherit": "header2",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#28262b"
-            },
-            ".mbr-section-text": {
-              "color": "#565656"
-            },
-            ".mbr-section-title SPAN": {
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            }
-          },
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-u",
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "showArrow": true,
-            "imageSize": 50,
-            "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "showButton": true,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgColor": "#F2F2F2",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
-            "overlayColor": "#ccc",
-            "overlayOpacity": "0.9"
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/watch?v=PVqzKGnYXes",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "<span style=\"font-weight: normal;\">HOW </span>VSAT<span style=\"font-weight: normal;\"> WORK?</span>",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header6",
-          "_anchor": "header6-w"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts2",
-          "_styles": {
-            "UL": {
-              "text-align": "left",
-              "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "font-size": "15px"
-            },
-            "P": {
-              "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "font-size": "16px",
-              "color": "#ffffff"
-            },
-            "STRONG": {
-              "font-size": "17px",
-              "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "contacts2-j",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8,
-            "googleMap": {
-              "address": "Astronautic Technology ",
-              "placeId": "ChIJlWEKAbRNzDERDf4iYGYiurI",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          },
-          "text1": "<strong>Address</strong><br>ST-Link <br>Wisma ATSB, <br>No 2, Jalan Jururancang U1/21,<br>Hicom Glenmarie Industrial Park,<br>Section U1<br>40150 Shah Alam<br>Selangor Darul Ehsan<br>Malaysia<br><br>\n<strong>Contacts</strong><br>\nEmail: sales@st-link.com<br>\nPhone: 0355690100<br>\nFax: 0355696288",
-          "text2": "<p class=\"mbr-contacts__text\"><b>Links</b></p><ul><li><a href=\"index.html#header2-8\" class=\"text-white\">Home</a></li><li><a href=\"index.html#msg-box3-f\" class=\"text-white\">Introduction</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\" style=\"font-size: 0.875rem; line-height: 1.8; background-color: rgb(46, 46, 46);\"></a></li><li><span style=\"color: rgb(255, 255, 255);\">Features</span></li><li><a href=\"index.html#form1-g\" class=\"text-white\">Contact Form</a><span style=\"color: rgb(255, 255, 255);\"></span></li></ul>"
+          "title": "ST-Link VSAT Solutions&nbsp;",
+          "text": "<p>&gt; We are capable to provide Full VSAT satellite communications solution and infrastructure &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (upload and download speed of choice )\n<span style=\"font-size: 1.07rem;\">&nbsp;&nbsp;</span></p><p>&gt; VSAT satellite communication data service subscription\n<span style=\"font-size: 1.07rem;\"></span></p><p>&gt; Solutions will depend on your specific requirements:\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; - Bandwidth, data rates &amp; number of sites (locations)\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; - Applications: SCADA/M2M, ATM-POS, Internet Broadband etc\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; - shared or dedicated bandwidth\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; - Point to point, point to multipoint</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#form1-g\" data-toolbar=\"-mbrBtnMove\">Contact us for more details</a>"
         },
         {
           "_tags": [
@@ -886,12 +801,125 @@
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "UL": {
+              "text-align": "left",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "15px"
+            },
+            "P": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "16px",
+              "color": "#ffffff"
+            },
+            "STRONG": {
+              "font-size": "17px",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "contacts2-j",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Astronautic Technology ",
+              "placeId": "ChIJlWEKAbRNzDERDf4iYGYiurI",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>ST-Link <br>Wisma ATSB, <br>No 2, Jalan Jururancang U1/21,<br>Hicom Glenmarie Industrial Park,<br>Section U1<br>40150 Shah Alam<br>Selangor Darul Ehsan<br>Malaysia<br><br>\n<strong>Contacts</strong><br>\nEmail: sales@st-link.com<br>\nPhone: 0355690100<br>\nFax: 0355696288",
+          "text2": "<p class=\"mbr-contacts__text\"><b>Links</b></p><ul><li><a href=\"index.html#header2-8\" class=\"text-white\">Home</a></li><li><a href=\"index.html#msg-box3-f\" class=\"text-white\">Introduction</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\" style=\"font-size: 0.875rem; line-height: 1.8; background-color: rgb(46, 46, 46);\"></a></li><li><span style=\"color: rgb(255, 255, 255);\">Features</span></li><li><a href=\"index.html#form1-g\" class=\"text-white\">Contact Form</a><span style=\"color: rgb(255, 255, 255);\"></span></li></ul>"
+        },
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#565656"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-w",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ccc",
+            "overlayOpacity": "0.9"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=PVqzKGnYXes",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">HOW </span>VSAT<span style=\"font-weight: normal;\"> WORK?</span>",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"index.html#features6-e\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+        },
+        {
           "_inherit": "social-buttons2",
           "_styles": {
             ".mbr-section-title, .btn-social": {
               "color": "#fff"
             }
           },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-m",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
@@ -904,13 +932,8 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "_tags": [
-            "Theme"
-          ],
           "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-m"
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> "
         }
       ]
     }
