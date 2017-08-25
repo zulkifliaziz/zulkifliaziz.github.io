@@ -595,14 +595,25 @@ h6,
 #msg-box3-p .mbr-section-title {
   font-family: 'Titillium Web', sans-serif;
 }
+#header6-w .mbr-section-title {
+  color: #28262b;
+}
+#header6-w .mbr-section-text {
+  color: #565656;
+}
+#header6-w .mbr-section-title SPAN {
+  font-family: 'Ubuntu', sans-serif;
+}
 #header5-v .mbr-section-title {
   color: #000;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 60px;
 }
 #header5-v .mbr-section-lead {
   color: #3d8eb9;
   text-align: left;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 22px;
 }
 #msg-box3-u .mbr-section-title,
 #msg-box3-u p {
@@ -610,8 +621,8 @@ h6,
 }
 #msg-box3-u .lead P {
   text-align: left;
-  font-size: 17px;
-  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
 }
 #msg-box3-u .mbr-section-title {
   font-family: 'Titillium Web', sans-serif;
@@ -646,15 +657,6 @@ h6,
   font-size: 17px;
   font-family: 'Titillium Web', sans-serif;
   color: #ffffff;
-}
-#header6-w .mbr-section-title {
-  color: #28262b;
-}
-#header6-w .mbr-section-text {
-  color: #565656;
-}
-#header6-w .mbr-section-title SPAN {
-  font-family: 'Ubuntu', sans-serif;
 }
 #social-buttons4-m .mbr-section-title,
 #social-buttons4-m .btn-social {
