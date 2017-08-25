@@ -350,7 +350,7 @@
           },
           "title1": "Why VSAT",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "VSAT is independent from the terrestrial network.It provides availability &amp; service continuity of IP connectivity. VSAT provides borderless connectivity.",
+          "caption1": "VSAT is<b> independent</b> <b>from the terrestrial</b> network.It provides availability &amp; service continuity of IP connectivity. VSAT provides borderless connectivity.",
           "button1": "<a data-app-btn=\"true\" href=\"index.html#msg-box3-p\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -366,7 +366,7 @@
           },
           "title2": "VSAT Applications",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "VSAT can be applied for businesses and communities. It can be use for Email, File Transfer (FTP), VoIP, Internet (web broswing), M2M (SCADA, Telemetry Remote Hardware Management), Remote Diagnostics, Remote Monitoring and Data Streaming Services from remote or hazardous sites to headquaters.",
+          "caption2": "VSAT can be applied for <b>businesses and communities</b>. It can be use for Email, File Transfer (FTP), VoIP, Internet (web broswing), M2M (SCADA, Telemetry Remote Hardware Management), Remote Diagnostics, Remote Monitoring and Data Streaming Services from remote or hazardous sites to headquaters.",
           "button2": "<a data-app-btn=\"true\" href=\"index.html#msg-box3-q\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
             "iconFont": {
@@ -382,7 +382,7 @@
           },
           "title3": "ST-Link Solutions",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "ST-Link offers full VSAT satellite communications solution and infrastructure (upload and download speed of choice) as well as VSAT satellite communication data service subscription.",
+          "caption3": "ST-Link <b>offers full VSAT satellite communications solution</b> <b>and infrastructure</b> (upload and download speed of choice) as well as VSAT satellite communication data service subscription.",
           "button3": "<a data-app-btn=\"true\" href=\"index.html#msg-box3-u\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -398,7 +398,7 @@
           },
           "title4": "How VSAT Work",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "NEED Some wording!",
+          "caption4": "Very Small Aperture Terminal (VSAT) are <b>small fixed satellite antennas that provide highly reliable communication</b> means for data, voice and video between almost any number of geographically dispersed sites. VSAT is used to receive satellite transmissions.",
           "button4": "<a data-app-btn=\"true\" href=\"index.html#header6-w\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media5": {
             "iconFont": {
@@ -600,7 +600,8 @@
             ".lead P": {
               "text-align": "left",
               "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "19px"
             },
             ".btn": {
               "font-family": "'Titillium Web', sans-serif",
